@@ -1,0 +1,27 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "start my first open source ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janceChun/demo.git"
+  },
+  "keywords": [
+    "first",
+    "open",
+    "source"
+  ],
+  "author": "janceChun <756837919qq@gamil.com> (https://jancechun.github.io/janceChun/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janceChun/demo/issues"
+  },
+  "homepage": "https://github.com/janceChun/demo#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
