@@ -19,4 +19,8 @@ following by [How to Write an Open Source JavaScript Library](https://egghead.io
 
 ### publish npm 
  * npm pubslih 
- * npm info 
+ * npm info
+  
+### git tag 
+ * git tag 0.0.1
+ * git push --tags

@@ -1,6 +1,6 @@
 {
   "name": "jancedemo",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "start my first open source ",
   "main": "src/index.js",
   "scripts": {
