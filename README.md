@@ -12,4 +12,11 @@ following by [How to Write an Open Source JavaScript Library](https://egghead.io
 * npm  adduser
 * npm init 
  
- ### 
+### publish git
+* git add -A
+* git commit -m  'add init'
+* git push
+
+### publish npm 
+ * npm pubslih 
+ * npm info 
