@@ -31,6 +31,7 @@ following by [How to Write an Open Source JavaScript Library](https://egghead.io
  *  git push --tags
  *  npm publish --tag beta
  *  npm info 
+ *  npm dist-tag ls
  (
   u can run git tag 0.1.0-beta.1
   and then git push --tags && npm publish --tag beta 
@@ -90,4 +91,7 @@ item
  close #2
 ``` 
 
+### Automatically releasing with TravisCI
+### Automatically running test before commits with ghooks
+### Adding code code coverage recording with Istanbul
 
