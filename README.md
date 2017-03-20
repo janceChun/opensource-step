@@ -24,3 +24,11 @@ following by [How to Write an Open Source JavaScript Library](https://egghead.io
 ### git tag 
  * git tag 0.0.1
  * git push --tags
+ 
+### publish beta version
+ *  git tag 0.1.0-beta.0
+ *  git push
+ *  git push --tags
+ *  npm publish --tag beta
+ *  npm info 
+ 
