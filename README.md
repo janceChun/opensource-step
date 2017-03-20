@@ -31,4 +31,45 @@ following by [How to Write an Open Source JavaScript Library](https://egghead.io
  *  git push --tags
  *  npm publish --tag beta
  *  npm info 
+ (
+  u can run git tag 0.1.0-beta.1
+  and then git push --tags && npm publish --tag beta 
+  to update the  npm tag packe.
+  the  customer can npm install janceDemo@beta to update beta package
+ )
  
+### setting 
+* npm i -D mocha chai
+ 
+### releases with  semantic-release
+* npm install -g semantinc-release-cli
+* semantic-release-cli setup
+* add .travis.yml
+
+```
+before_script:
+  - npm prune
+script:
+  - npm run test
+after_success:
+  - npm run semantic-release
+```
+
+### writing conventional commits with commitizen
+* npm install -D commitizen cz-conventional-changelog
+* add package.json
+
+```
+ "scripts": {
+    "commit":"git-cz",
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+   "czConfig":{
+      "path":"node_modules/cz-conventional-changelog"
+   }
+     
+```
+
+* git add -A
+* 
