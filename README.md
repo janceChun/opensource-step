@@ -72,4 +72,8 @@ after_success:
 ```
 
 * git add -A
-* 
+* npm run commit
+
+### commiting a new feature width commitizen
+
+
