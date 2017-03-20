@@ -1,4 +1,4 @@
-# Create First  Open Source JavaScript Library
+# Create First  Open Source JavaScript Library ![](https://travis-ci.org/janceChun/demo.svg?branch=master)
 
 following by [How to Write an Open Source JavaScript Library](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-configuring-npm-and-creating-a-package-json)
 
