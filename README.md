@@ -75,5 +75,19 @@ after_success:
 * npm run commit
 
 ### commiting a new feature width commitizen
+* npm run commit
+
+```
+? Select the type of change that you're committing: feat:     A new feature
+? Denote the scope of this change ($location, $browser, $compile, etc.):
+ random
+? Write a short, imperative tense description of the change:
+ add avility to get an array of names
+? Provide a longer description of the change:
+ if you pass a number to the random function . you will receive an array with the number of randomw
+item
+? List any breaking changes:
+ close #2
+``` 
 
 
